@@ -7,7 +7,8 @@ tags: [dict, debian]
 
 Goldendict enable google translate
 
-> system: debian 10;gdict version: offical.
+> system: debian 10;
+> gdict version: offical.
 
 ## Installing pip for Python 3
 
@@ -26,12 +27,12 @@ Perform the following steps as a user with sudo privileges to install Pip for Py
     ```pip3 --version```
 
     The version number may be different, but it will look something like the one below:
-    > output pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
-    > from !(how-to-install-pip-on-debian-10)<https://linuxize.com/post/how-to-install-pip-on-debian-10/>
+    > output pip 
+    > 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7) from ![how-to-install-pip-on-debian-10](https://linuxize.com/post/how-to-install-pip-on-debian-10/)
 
 ## used
 
-> download file from github, link<https://github.com/xinebf/google-translate-for-goldendict>.
+> download file from github, link--<https://github.com/xinebf/google-translate-for-goldendict>.
 
 GoldenDict - 编辑 - 字典 - 字典来源 - 程式
 
