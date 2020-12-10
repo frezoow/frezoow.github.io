@@ -7,14 +7,10 @@ tags: [kde, debian, command]
 
 > This article describes how to remove the Gnome desktop environment from a Debian install.
 
-    1. step
+```code
+    # sudo apt-get autoremove gdm3
 
-```# sudo apt-get autoremove gdm3```
+    # sudo apt-get autoremove --purge gnome*
 
-    2. step
-
-```# sudo apt-get autoremove --purge gnome*```
-
-    3. step
-
-```systemctl reboot```
+    # systemctl reboot
+```
